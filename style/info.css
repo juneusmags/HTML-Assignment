@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Balsamiq Sans";
+}
+/*NAVBAR START*/
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(201, 201, 201);
+    color: white;
+    padding: 20px;
+}
+
+.logo{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.btn{
+    width : 100px;
+    height: 30px;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.btn a{
+    text-decoration: none;
+    color: black;
+}
+
+/*NAVBAR END*/
+
+/*MAIN START*/
+.main{
+    margin : 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-image{
+    width: 400px;
+    height: auto;
+    margin : 15px;
+}
+/*MAIN END*/

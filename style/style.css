@@ -1,0 +1,124 @@
+*{
+    margin :0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Balsamiq Sans";
+}
+
+/*NAVBAR START*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(201, 201, 201);
+    color: white;
+    padding: 20px;
+}
+
+
+.logo{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-links ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.navbar-links li a{
+    margin-left : 15px;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    display: block;
+}
+
+.navbar-links a:hover{
+    color: grey;
+}
+
+.logo a:hover{
+    font-size: 20px;
+    color:grey;
+}
+/*NAVBAR END*/
+
+/*HOBBIES START*/
+.hobbies-container{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/images/hobbies.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hobbies-list{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    
+}
+
+.hobbies-container li a{
+    margin-left: 40px;
+    text-decoration: none;
+    color: white;
+}
+/*HOBBIES END*/
+
+
+/*MUSIC START*/
+.music-container{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/images/music.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.music-list{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    
+}
+
+.music-container li a{
+    margin-left: 40px;
+    text-decoration: none;
+    color: white;
+}
+/*MUSIC END*/
+
+/*MOVIES START*/
+.movies-container{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/images/movies.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.movies-list{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    
+}
+
+.movies-container li a{
+    margin-left: 40px;
+    text-decoration: none;
+    color: white;
+}
+/*MOVIES END*/
